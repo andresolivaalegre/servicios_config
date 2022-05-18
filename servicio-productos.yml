@@ -13,7 +13,7 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 eureka:
   client:
-    instance:
-      hostname: localhost
     service-url:
       defaultZone: http://localhost:8761/eureka
+  instance:
+      hostname: localhost
